@@ -1,0 +1,35 @@
+Practice Drill 1:
+
+mkdir hello : Creating a root directory.
+
+Creating five directory...
+
+mkdir hello/five/one : Creating two directory inside hello
+touch hello/five/six/c.txt  : Creating a text file inside six directory 
+mkdir hello/five/six/seven :Creating a directory inside six.
+touch hello/five/six/seven/error.log : Creating a .log file  
+
+Creating one directory....
+mkdir  hello/one/two/three: Creating subdirectories of one.
+touch hello/one/a.txt: Creating a text file inside one.
+touch hello/one/b.txt: Creating a text file inside one.
+touch hello/one/ten/d.txt: Creating a text file inside ten.
+touch hello/one/two/three/e.txt: Cteating a text file inside three.
+mkdir hello/one/two/three/four: Creating a directory inside three.
+touch hello/one/two/three/four/access.log: Creating a text file inside four.
+
+
+rm -r *log : Deleting all the files that have “.log” extension.
+
+Adding the contents in the specific file:
+echo “Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others” >> hello/one/a.txt.
+
+
+rm -r five : To deleting a directory name “five”.
+
+mv /hello/one  /hello/uno: Renaming the “one” directory to “uno” directory.
+
+mv /hello/one/a.txt  /hello/one/two/a.txt: Remove a file from one directory to another directory.
+
+
+  
