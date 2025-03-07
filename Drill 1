@@ -3,21 +3,31 @@ Practice Drill 1:
 mkdir hello : Creating a root directory.
 
 Creating five directory...
+cd hello: To enter the hello directory to make sub directory.
+mkdir five one : Creating two directory inside hello
+cd five: To enter in directory five.
+mkdir six: Crete a directory name six.
+cd six: Entering in directory six.
+touch c.txt:Creating a text file insize six.
+mkdir seven : Creating a directory seven.
+cd seven: Entering in directory seven.
+touch error.log:Creating a .log file inside seven.
 
-mkdir hello/five/one : Creating two directory inside hello
-touch hello/five/six/c.txt  : Creating a text file inside six directory 
-mkdir hello/five/six/seven :Creating a directory inside six.
-touch hello/five/six/seven/error.log : Creating a .log file  
 
-Creating one directory....
-mkdir  hello/one/two/three: Creating subdirectories of one.
-touch hello/one/a.txt: Creating a text file inside one.
-touch hello/one/b.txt: Creating a text file inside one.
-touch hello/one/ten/d.txt: Creating a text file inside ten.
-touch hello/one/two/three/e.txt: Cteating a text file inside three.
-mkdir hello/one/two/three/four: Creating a directory inside three.
-touch hello/one/two/three/four/access.log: Creating a text file inside four.
-
+Creating one directory...
+cd : To reach the home directory.
+cd hello: To enter hello directory.
+cd one: To enter one directory.
+touch a.txt b.txt: Creating two txt files inside one.
+mkdir two: Creating a directory inside one.
+cd two: Entering in directory two.
+touch d.txt: Creating a text file inside two.
+mkdir three: Creatintg a directory name three.
+cd three: Entering in directory three.
+touch e.txt: Creating a text file inside three.
+mkdir four: Creating a directory inside three.
+cd four: Entering in directory four.
+touch access.log: Creating  .log file inside four. 
 
 rm -r *log : Deleting all the files that have “.log” extension.
 
